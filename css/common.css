@@ -1,0 +1,89 @@
+
+.pageHeading {
+    color: floralwhite;
+}
+
+td{
+    color:floralwhite;
+}
+
+.padded {
+    margin: 50px;
+    padding: 50px;
+}
+
+footer{
+    color: floralwhite;
+}
+
+.navbar {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1026px) {
+    .col-xs-1 {
+        display: none;
+    }
+    .col-sm-10,
+    .col-sm-12,
+    .col-xs-10,
+    .col-xs-12 {
+        /*         display: none; */
+        
+        font-size: 80%;
+        text-rendering: optimizeLegibility;
+    }
+    .largeside{
+        display: none;
+    }
+    .referenceFooter {
+        display: none;
+    }
+    #pp-nav {
+        display: none;
+    }
+    .navbar {
+        display: table-header-group;
+    }
+    
+    hr{
+     display: none;   
+    }
+}
+
+.myNavFont{
+    
+    color:floralwhite;
+    font-size: 20px;
+}
+
+#portfolio-filter li a,nav {
+    color:floralwhite;
+}
+
+.og-details{
+    color: floralwhite;
+}
+/*
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+*/
+
+/*body { padding-top: 70px; }*/
+/*
+.myButton {
+    background-color: #330000;
+}
+*/

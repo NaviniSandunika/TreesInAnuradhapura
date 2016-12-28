@@ -42,6 +42,14 @@
 <!--<body style="background-color: rgb(17, 100, 60);" background="images/autmn2.jpg">-->
 
 <body style="background-color: #660000;">
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <div class="container-fluid">
 
               <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -212,7 +220,9 @@
                 <br>
                 <footer>
                     <p>© Navini 2015</p>
-                     <g:plusone data-size="meidum" data-annotation="bubble"></g:plusone>
+                            <div class="g-plusone" data-annotation="bubble" data-width="150"></div>
+                    <p></p>
+                  <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
                 </footer>
             </div>
             <div class="col-lg-9 col-sm-12 col-xs-12 midSection2">

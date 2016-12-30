@@ -1,3 +1,6 @@
+.table-hover > tbody > tr:hover {
+  background-color: #660000;
+}
 
 .pageHeading {
     color: floralwhite;

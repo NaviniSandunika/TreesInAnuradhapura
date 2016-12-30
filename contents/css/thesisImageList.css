@@ -1,0 +1,68 @@
+
+.treeImage {
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+.oneTree {
+    background-color:darkolivegreen;
+    opacity: 0.9;
+    margin-left: 50px;
+    margin-bottom: 50px;    
+    padding: 5px;
+    float:left;
+}
+
+.midSectionRow {
+/*    margin: 10px;*/
+    background-color:aqua; 
+}
+
+.midSection {
+/*    color: #3D2639;*/
+    background-color: #330000;
+/*    margin: px;*/
+}
+
+.imageWall {
+    padding: 5px;
+}
+
+.imagePopUp {
+    background-color: aqua;
+}
+
+.ui-page-theme-a{
+     background-color: #330000;
+}
+
+.table-hover > tbody > tr > td:hover,
+.table-hover > tbody > tr > th:hover,
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > .active,
+.table-hover > tbody > tr:hover > th {
+  background-color: #660000;
+}
+
+ tr > td:first-child {
+  font-weight: bold;
+font-size: 105%;
+color: floralwhite;
+}
+
+*{
+ font-weight:100;    
+}
+
+.imageListPage {
+    padding-top: 20px;
+    background-color: #302639;
+    
+}
+
+.ui-page-theme-a{
+ font-weight: normal;
+ 
+}

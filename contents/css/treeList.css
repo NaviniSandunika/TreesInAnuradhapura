@@ -1,0 +1,26 @@
+.wagwep-container ul#portfolio-filter a{
+  background: #330000;
+  color: #fff;
+      border-color: #d58512;
+}
+
+.wagwep-container ul#portfolio-filter a:hover{
+  background-color: #d58512;
+  border-color: #985f0d;
+}
+
+
+.wagwep-container ul#portfolio-filter li.current a {
+    font-weight: bold;
+    background: #ec971f;
+    color: #fff;
+    border-color: #985f0d;
+}
+
+.og-expander {
+    background: #330000;
+}
+
+.elastislide-wrapper {
+    background-color: #660000;
+}

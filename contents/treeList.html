@@ -14,11 +14,10 @@
     <link rel="icon" type="image/png" href="images/Pixelkit-Flat-Jewels-Tree.ico" sizes="16x16">
     <title>අනුරාධපුර යුගය : සියලුම ශාක</title>
 
-        <link rel="stylesheet" type="text/css" href="css/bootstrapShort.css" />
-        <link rel="stylesheet" type="text/css" href="css/common.css" />
-    <link rel="stylesheet" type="text/css" href="css/elastiGrid/elastic_grid.css" />
-
-
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/elastiGrid/elastic_grid.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/treeList.css" />
 
 </head>
 
@@ -121,16 +120,18 @@
     </div>
 
 <!-- Place this tag in your head or just before your close body tag. -->
-<script src="https://apis.google.com/js/platform.js" async defer></script>
-
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="  crossorigin="anonymous"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/min/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="js/min/bootstrap.min.js"></script>
+    <!-- <script type="text/javascript" src="js/min/bootstrap.min.js"></script> -->
+    <script type="text/javascript" src="js/elastiGrid/elastic_grid.min.js"></script>
     <script type="text/javascript" src="js/elastiGrid/modernizr.custom.js"></script>
     <script type="text/javascript" src="js/elastiGrid/classie.js"></script>
+
     <!--- uncompress-->
-<script type="text/javascript" src="js/elastiGrid/jquery.elastislide.js"></script>
-<script type="text/javascript" src="js/elastiGrid/jquery.hoverdir.js"></script>
-<script type="text/javascript" src="js/elastiGrid/elastic_grid.js"></script>
+    <script type="text/javascript" src="js/elastiGrid/jquery.elastislide.js"></script>
+    <script type="text/javascript" src="js/elastiGrid/jquery.hoverdir.js"></script>
 
     <!-- compress version-->
 <!--            <script type="text/javascript" src="js/elastiGrid/elastic_grid.min.js"></script>-->
@@ -141,7 +142,7 @@
             $("#elastic_grid_demo").elastic_grid({
                 //            'showAllText' : '<span>සියලුම-ශාක</span>',
                 'showAllText': 'All',
-                'filterEffect': 'flip', // moveup, scaleup, fallperspective, fly, flip, helix , popup
+                'filterEffect': 'fallperspective', // moveup, scaleup, fallperspective, fly, flip, helix , popup
                 'hoverDirection': true,
                 'hoverDelay': 0,
                 'hoverInverse': false,

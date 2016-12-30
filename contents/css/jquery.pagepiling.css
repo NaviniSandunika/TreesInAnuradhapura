@@ -1,25 +1,21 @@
-/* ===========================================================
- * pagepiling.js 1.5
+/*!
+ * pagepiling.js 1.5.3
  *
- * https://github.com/alvarotrigo/fullPage.js
- * MIT licensed
+ * https://github.com/alvarotrigo/pagePiling.js
+ * @license MIT licensed
  *
- * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
- *
- * ========================================================== */
+ * Copyright (C) 2016 alvarotrigo.com - A project by Alvaro Trigo
+ */
 html, body {
     overflow:hidden;
     margin:0;
     padding:0;
-    height: 100%;
-    min-height: 100%;
+
     /*Avoid flicker on slides transitions for mobile phones #336 */
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 .pp-section {
-
-    height: 100%;
-    min-height: 100%;
+    height:100%;
     position:absolute;
     width:100%;
 }
@@ -50,15 +46,12 @@ html, body {
 }
 .pp-section.pp-table{
     display: table;
-    height: 100%;
-    min-height: 100%;
 }
 .pp-tableCell {
     display: table-cell;
     vertical-align: middle;
     width: 100%;
     height: 100%;
-    min-height: 100%;
 }
 .pp-slidesNav{
     position: absolute;
@@ -100,7 +93,7 @@ html, body {
 }
 #pp-nav li .active span,
 .pp-slidesNav .active span {
-    background: #FFF;
+    background: #333;
 }
 #pp-nav span,
 .pp-slidesNav span {

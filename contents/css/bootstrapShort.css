@@ -2327,7 +2327,7 @@ th {
   background-color: #f9f9f9;
 }
 .table-hover > tbody > tr:hover {
-  background-color: #660000;
+  background-color: #004D00;
 }
 table col[class*="col-"] {
   position: static;
@@ -3326,26 +3326,26 @@ fieldset[disabled] .btn-info.active {
 }
 .btn-warning {
   color: #fff;
-  background-color: #330000;
+  background-color: #001A00;
   border-color: #eea236;
 }
 .btn-warning:focus,
 .btn-warning.focus {
   color: #fff;
-  background-color: #330000;
+  background-color: #001A00;
   border-color: #985f0d;
 }
 .btn-warning:hover {
   color: #fff;
-  background-color: #ec971f;
-  border-color: #d58512;
+  background-color: #4CAF50;
+  border-color: #4CAF50;
 }
 .btn-warning:active,
 .btn-warning.active,
 .open > .dropdown-toggle.btn-warning {
   color: #fff;
-  background-color: #330000;
-  border-color: #d58512;
+  background-color: #001A00;
+  border-color: #4CAF50;
 }
 .btn-warning:active:hover,
 .btn-warning.active:hover,
@@ -3357,7 +3357,7 @@ fieldset[disabled] .btn-info.active {
 .btn-warning.active.focus,
 .open > .dropdown-toggle.btn-warning.focus {
   color: #fff;
-  background-color: #d58512;
+  background-color: #4CAF50;
   border-color: #985f0d;
 }
 .btn-warning:active,
@@ -3384,7 +3384,7 @@ fieldset[disabled] .btn-warning:active,
 .btn-warning.disabled.active,
 .btn-warning[disabled].active,
 fieldset[disabled] .btn-warning.active {
-  background-color: #330000;
+  background-color: #001A00;
   border-color: #eea236;
 }
 .btn-warning .badge {
@@ -4222,7 +4222,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   min-height: 20px;
   margin-bottom: 20px;
   border: 1px solid transparent;
-  
+
 }
 @media (min-width: 768px) {
   .navbar {
@@ -4781,7 +4781,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   line-height: 1.42857143;
   color:floralwhite;
   text-decoration: none;
-  background-color: #330000;
+  background-color: #001A00;
   border: 1px solid #ddd;
 }
 .pagination > li:first-child > a,
@@ -4955,7 +4955,7 @@ a.label:focus {
 }
 .label-warning[href]:hover,
 .label-warning[href]:focus {
-  background-color: #ec971f;
+  background-color: #4CAF50;
 }
 .label-danger {
   background-color: #d9534f;

@@ -2,7 +2,7 @@
 .treeImage {
     width: 100px;
     height: 100px;
-    
+
 }
 
 
@@ -10,19 +10,19 @@
     background-color:darkolivegreen;
     opacity: 0.9;
     margin-left: 50px;
-    margin-bottom: 50px;    
+    margin-bottom: 50px;
     padding: 5px;
     float:left;
 }
 
 .midSectionRow {
 /*    margin: 10px;*/
-    background-color:aqua; 
+    background-color:aqua;
 }
 
 .midSection {
 /*    color: #3D2639;*/
-    background-color: #330000;
+    background-color: #001A00;
 /*    margin: px;*/
 }
 
@@ -35,7 +35,7 @@
 }
 
 .ui-page-theme-a{
-     background-color: #330000;
+     background-color: #001A00;
 }
 
 .table-hover > tbody > tr > td:hover,
@@ -43,7 +43,7 @@
 .table-hover > tbody > tr:hover > td,
 .table-hover > tbody > tr:hover > .active,
 .table-hover > tbody > tr:hover > th {
-  background-color: #660000;
+  background-color: #004D00;
 }
 
  tr > td:first-child {
@@ -53,16 +53,16 @@ color: floralwhite;
 }
 
 *{
- font-weight:100;    
+ font-weight:100;
 }
 
 .imageListPage {
     padding-top: 20px;
     background-color: #302639;
-    
+
 }
 
 .ui-page-theme-a{
  font-weight: normal;
- 
+
 }

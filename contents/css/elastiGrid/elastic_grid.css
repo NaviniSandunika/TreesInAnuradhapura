@@ -94,7 +94,7 @@
 
 .og-expander {
 	position: absolute;
-	background: #330000;
+	background: #001A00;
 	color: #d6d6d6;
 	height: 100px;
 	top: auto;
@@ -197,7 +197,7 @@
 .og-details a.link-button {
 	font-size: 11px;
 	padding: 8px 10px;
-	background-color: #660000;
+	background-color: #004D00;
 	background: -moz-linear-gradient(
 		top,
 		#303030 0%,
@@ -362,7 +362,7 @@
 
 .elastislide-wrapper {
 	position: relative;
-	background-color: #660000;
+	background-color: #004D00;
 	margin: 0 auto;
 	min-height: 60px;
 	/*box-shadow: 1px 1px 3px rgba(0,0,0,0.2);*/

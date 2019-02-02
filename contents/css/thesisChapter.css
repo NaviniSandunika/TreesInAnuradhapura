@@ -166,7 +166,7 @@ body {
 
 .midSection {
 /*    color: #3D2639;*/
-    background-color: #330000;
+    background-color: #001A00;
     color:floralwhite;
     height: auto;
 }
@@ -187,7 +187,7 @@ body {
 
 #pp-nav li .active span,
 .pp-slidesNav .active span {
-    background: #ec971f;
+    background: #4CAF50;
 }
 
 #pp-nav.right ul li a span, #pp-nav span, .pp-slidesNav span {

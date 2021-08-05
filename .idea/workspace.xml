@@ -31,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/scripts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/contents/images/trees/Flowers/Nelum" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -41,6 +41,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/contents/images/trees/Flowers/Nelum" />
       <recent name="$PROJECT_DIR$/scripts" />
     </key>
   </component>
@@ -69,7 +70,7 @@
       <workItem from="1618294709361" duration="164000" />
       <workItem from="1627643608328" duration="41000" />
       <workItem from="1628139057613" duration="2037000" />
-      <workItem from="1628159632276" duration="8892000" />
+      <workItem from="1628159632276" duration="9329000" />
     </task>
     <task id="LOCAL-00001" summary="Add idea files">
       <created>1628160682309</created>
